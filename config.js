@@ -11,7 +11,7 @@ const baseConfig = {
     
     
     // Feature flags
-    enableEPG: true, // EPG attivo di default
+    enableEPG: null, // EPG attivo di default
     
     // Proxy configuration
     PROXY_URL: process.env.PROXY_URL || null,
