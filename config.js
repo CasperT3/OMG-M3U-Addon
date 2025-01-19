@@ -7,8 +7,8 @@ const baseConfig = {
     port: process.env.PORT || 10000,
     
     // Content sources
-    M3U_URL: 'https://raw.githubusercontent.com/mccoy88f/OMG-TV-Stremio-Addon/refs/heads/main/link.playlist',
-    EPG_URL: 'https://raw.githubusercontent.com/mccoy88f/OMG-TV-Stremio-Addon/refs/heads/main/link.epg',
+    M3U_URL: 'https://raw.githubusercontent.com/jsosao/m3u/refs/heads/main/test.m3u8',
+    
     
     // Feature flags
     enableEPG: true, // EPG attivo di default
@@ -16,7 +16,7 @@ const baseConfig = {
     // Proxy configuration
     PROXY_URL: process.env.PROXY_URL || null,
     PROXY_PASSWORD: process.env.PROXY_PASSWORD || null,
-    FORCE_PROXY: process.env.FORCE_PROXY === 'yes',
+    FORCE_PROXY: process.env.FORCE_PROXY === 'no',
     
     // Cache settings
     cacheSettings: {
